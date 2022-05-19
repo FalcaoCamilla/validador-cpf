@@ -23,22 +23,22 @@
             <p>Recursos e habilidades da linguagem Javascript</p>
         </div>
     </div>
-    
+
     <div class="container formulario">
         <form>
             <div class="form-group">
                 <div class="input-group input-group-lg">
                     <span class="input-group-addon" id="sizing-addon1">CPF</span>
                     <input type="text" class="form-control" placeholder="Digite o cpf para validação ..."
-                        aria-describedby="sizing-addon1">
+                        aria-describedby="sizing-addon1" id="cpf_digitado">
                 </div>
                 <small class="form-text text-muted">Digite somente numeros</small>
             </div>
-            <button type="button" class="btn btn-info">Validar !</button>
+            <button type="button" class="btn btn-info" onclick="validacao()">Validar!</button>
         </form>
     </div>
     <div class="container page-header">
-        <div id="success" class="alert alert-success" style="display: none;" role="alert">
+        <div id="sucess" class="alert alert-success" style="display: none;" role="alert">
             <strong>Oba!</strong> Seu CPF é válido
         </div>
         <div id="error" class="alert alert-danger" style="display: none;" role="alert">
@@ -54,7 +54,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"></script>
-
+<script src="./script.js"></script>
 
 
 </html>
